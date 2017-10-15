@@ -5,8 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lixiaomei-git/{application}
-
+          uri: https://github.com/lixiaomei-git/config-repo-demo
 
     
 

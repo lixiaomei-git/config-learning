@@ -11,6 +11,9 @@
 	<modules>
 		<module>microservice-config-server</module>
 		<module>microservice-config-client</module>
+		<module>microservice-config-server-encrypt</module>
+		<module>microservice-config-server-security</module>
+		<module>microservice-config-client-security</module>
 	</modules>
 <parent>
     <groupId>org.springframework.boot</groupId>
