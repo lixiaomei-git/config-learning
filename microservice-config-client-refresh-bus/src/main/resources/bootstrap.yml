@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: dev
+      lable: master
+  application:
+    name: foobar
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
