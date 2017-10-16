@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lixiaomei-git/config-repo-demo
+  application:
+    name: microservice-config-server-eureka
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password@localhost:8741/eureka
+    instance:
+      prefer-ip-address: true
+    
+
+      
+     

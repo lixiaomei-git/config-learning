@@ -14,6 +14,9 @@
 		<module>microservice-config-server-encrypt</module>
 		<module>microservice-config-server-security</module>
 		<module>microservice-config-client-security</module>
+		<module>microservice-config-server-eureka</module>
+		<module>microservice-config-client-eureka</module>
+		<module>microservice-config-client-refresh</module>
 	</modules>
 <parent>
     <groupId>org.springframework.boot</groupId>
